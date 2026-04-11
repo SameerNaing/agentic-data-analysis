@@ -3,8 +3,11 @@ name = "agentic-data-analysis"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "ipykernel>=7.2.0",
+    "langchain[openai]>=1.2.15",
+    "langchain-community>=0.4.1",
+    "langgraph>=1.1.6",
     "pandas>=3.0.2",
 ]
